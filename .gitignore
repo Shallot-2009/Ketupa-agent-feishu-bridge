@@ -1,0 +1,29 @@
+# Credentials and machine-specific configuration
+.env
+.env.*
+!.env.example
+config/settings.local.json
+*.local.json
+*.private.json
+auth.json
+*.pem
+*.key
+.codex/
+.aily-cli/
+.feishu-codex-bridge/
+# All actual conversations, sessions, uploads and tasks are private
+feishu-workspace/runtime/
+ketupa-workspace/runtime/
+node_modules/
+release/
+coverage/
+*.log
+*.zip
+*.exe
+*.dll
+*.brd
+*.aedt
+*.s?p
+.DS_Store
+.idea/
+.vscode/

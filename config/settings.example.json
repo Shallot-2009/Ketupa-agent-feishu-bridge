@@ -1,0 +1,55 @@
+{
+  "feishu": {
+    "domain": "feishu",
+    "allowedUsers": [],
+    "allowedChats": [],
+    "requireMentionInGroups": true
+  },
+  "model": {
+    "provider": "codex",
+    "name": "",
+    "sendChatToModel": false,
+    "systemPrompt": "回答自然、简短、专业。说明关键假设。不要执行命令或查找本机文件。",
+    "command": {
+      "file": "codex",
+      "args": []
+    },
+    "timeoutMs": 90000,
+    "maxHistoryMessages": 16,
+    "maxOutputTokens": 500,
+    "maxHistoryChars": 16000
+  },
+  "workspace": {
+    "local": "./feishu-workspace/runtime",
+    "tasks": "./ketupa-workspace/runtime",
+    "timezone": "Asia/Shanghai",
+    "maxAttachmentBytes": 33554432
+  },
+  "tasks": {
+    "autoRun": false,
+    "workflows": {
+      "demo": {
+        "description": "Interface test only; does not perform simulation",
+        "inputs": {
+          "source": [".txt"]
+        },
+        "parameters": {
+          "message": {
+            "type": "string",
+            "maxLength": 200,
+            "required": false
+          }
+        },
+        "builtin": "demo",
+        "timeoutMs": 30000
+      }
+    },
+    "concurrency": 1,
+    "maxPending": 50
+  },
+  "knowledge": {
+    "enabled": false,
+    "maxEvidenceChars": 4000,
+    "maxSnippets": 3
+  }
+}

@@ -1,0 +1,10 @@
+Ketupa Agent Feishu Bridge
+Copyright 2026 Asenjo.HB.L and the Ketupa Agent Feishu Bridge contributors.
+
+This source package contains a minimal integration layer only.
+It does not distribute a model service, solver, proprietary workflow engine,
+customer project, conversation archive, or third-party runtime binary.
+
+The integration source is licensed under the Apache License, Version 2.0.
+Dependencies retain their original licenses; see THIRD_PARTY_NOTICES.md.
+No affiliation with a platform or model provider is implied.

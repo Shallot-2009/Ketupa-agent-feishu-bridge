@@ -1,0 +1,307 @@
+{
+  "schemaVersion": 1,
+  "name": "ketupa-agent-feishu-bridge",
+  "version": "0.2.0",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 19,
+      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c"
+    },
+    {
+      "path": ".githooks/pre-commit",
+      "bytes": 59,
+      "sha256": "afdfb90e4668f2568d428cd0a90864459a182a5aaf4acc89c24149b93910eef5"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "bytes": 655,
+      "sha256": "5c6e2efeddd93aa4432b945e22f698f0c7577ead870b78fc2fdfc15eaff0a648"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 415,
+      "sha256": "5eb7f7b548df8f1471d405f58249bf6563c51404e110d0b669f0154ab03fbbc6"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 524,
+      "sha256": "7f036461c114c771fd901debe12fc0806ca107808be8815d427707a226945fe0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6023,
+      "sha256": "04a5aefa452ce52d025a1a4bcc715a1ad3bb37795acac623f8e58364cfd455d6"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 2545,
+      "sha256": "5dc38cbe136ffe4a319cee43f3c91fb2bd274987accc0b337f393ae0b3f7487a"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 3164,
+      "sha256": "957bfec80643eed797b0bb58529b3d34a1ad120f9655721b4725ca5127a1f61f"
+    },
+    {
+      "path": "bridge/attachments.mjs",
+      "bytes": 2046,
+      "sha256": "349984c14add8f4aec54b20c1779a69a042d7e189f899b12fb43a2fc4dca6109"
+    },
+    {
+      "path": "bridge/cli.mjs",
+      "bytes": 9520,
+      "sha256": "4d572076f01a53c51f7aeeb3edcf0ff69ee0083bfaf4e938bf51e4539db890b2"
+    },
+    {
+      "path": "bridge/commands.mjs",
+      "bytes": 5329,
+      "sha256": "aa55dc0bbb5fc065417369a38023b8502f68bcf740549035a0adff6c3c055b96"
+    },
+    {
+      "path": "bridge/config.mjs",
+      "bytes": 6072,
+      "sha256": "57306d12eabd867b6ff25a1feabfe71707be4551b6b4a67fddfa97637054589a"
+    },
+    {
+      "path": "bridge/model.mjs",
+      "bytes": 7049,
+      "sha256": "3516a8eacc6b920e27d14ddee3d6016b283e84bb27d3466a4bb804a899bd8d5d"
+    },
+    {
+      "path": "bridge/operations.mjs",
+      "bytes": 4500,
+      "sha256": "446ec9f2ce574d581b9c822cbee715c8a62b002711a51d14ae568f6343ed45cb"
+    },
+    {
+      "path": "bridge/platform.mjs",
+      "bytes": 2672,
+      "sha256": "87127ac05a95cfcd1d4082d689984f3c8000ffa96a504db69b8263b9ed6d07ac"
+    },
+    {
+      "path": "bridge/process.mjs",
+      "bytes": 2969,
+      "sha256": "622e16b2035e5e5a1318364d7bdf739d79e8a7b63eba2aebb5c9e59f6e13c02f"
+    },
+    {
+      "path": "bridge/service.mjs",
+      "bytes": 8567,
+      "sha256": "2cb874e967bd27fdd713426df14bb2c218eb9edfd002005d78832fcf544a8aee"
+    },
+    {
+      "path": "config/.env.example",
+      "bytes": 275,
+      "sha256": "8184eb380712e7ece195f17c17fe636bbace33911896533e53f3fc9393db2693"
+    },
+    {
+      "path": "config/README.md",
+      "bytes": 1062,
+      "sha256": "cffbfd0647b599c952f6e60d78db26042a530e6a0268c6ec8450191992b775b4"
+    },
+    {
+      "path": "config/settings.example.json",
+      "bytes": 1266,
+      "sha256": "4bbcdea5c4626f15dde6c37a726f2e4455706ab12c0b216b1ae01f36a80501ec"
+    },
+    {
+      "path": "docs/AI_SETUP.md",
+      "bytes": 3051,
+      "sha256": "d48a51e8b510e336d9c633cd539cfbde71d8cd075ed780d5ac5818a994e65f41"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "bytes": 4678,
+      "sha256": "3bfc5904d882810c4b56a1f5d023bcfc76b7f44d81205c63e464a1e4320319c8"
+    },
+    {
+      "path": "docs/AUTHOR.md",
+      "bytes": 724,
+      "sha256": "6a219a2f1cdc23e53db284dfa66eb36fabdd815e31b4c0b35918af950561db65"
+    },
+    {
+      "path": "docs/COMPARISON.md",
+      "bytes": 4110,
+      "sha256": "c636640c7d6546a77239bc3f350ca1c15121b038c4c25a881a66978d1ea18141"
+    },
+    {
+      "path": "docs/CONFIGURE.md",
+      "bytes": 8262,
+      "sha256": "b45dc4a51036aa0d6d82c5368606714d3ecc1416f318d153f87e6068ae415cac"
+    },
+    {
+      "path": "docs/KNOWLEDGE.md",
+      "bytes": 6175,
+      "sha256": "2f9756650f16dbfed56934f05094e9438b482700ea088dc6dbc22c88f928b0eb"
+    },
+    {
+      "path": "docs/OPERATIONS.md",
+      "bytes": 9624,
+      "sha256": "31919d480bf822ada398f1474131f5f10299d0878749c0657aa1ba64cf88b727"
+    },
+    {
+      "path": "docs/PLANNING.md",
+      "bytes": 5110,
+      "sha256": "275b87668550d8ff3ccdf54609fadea8c5a9b763a0ca0a23888be0c642adf173"
+    },
+    {
+      "path": "docs/PUBLISH.md",
+      "bytes": 4511,
+      "sha256": "e576c0020c04f52d5c72a4dcb5e712bcc6b28bda436a982404c2341223ee5e4b"
+    },
+    {
+      "path": "docs/SECURITY_REVIEW.md",
+      "bytes": 4362,
+      "sha256": "f9d2418f562d9b58401eb22513fad3c8b4fc9c94301b59739e5637f1328bb8cd"
+    },
+    {
+      "path": "docs/TASK_QUEUE.md",
+      "bytes": 4864,
+      "sha256": "9fb010208ce22773806c58dd90ed00a8e5432959b3fa0933f7091c91085a5ccd"
+    },
+    {
+      "path": "feishu-workspace/README.md",
+      "bytes": 2286,
+      "sha256": "79ee80edb4acb72f032af3c06c087f6b8c09ec721ce7154035804a43b74dffa8"
+    },
+    {
+      "path": "feishu-workspace/files.mjs",
+      "bytes": 1409,
+      "sha256": "221713a83797a8ded82fa1b2327fb88592eddbae62dce832384f6ad86cf87dd6"
+    },
+    {
+      "path": "feishu-workspace/knowledge.mjs",
+      "bytes": 9887,
+      "sha256": "c2fc63938efb77f41819475a3c32f1468affbabad2d09645d320975190586ed9"
+    },
+    {
+      "path": "feishu-workspace/store.mjs",
+      "bytes": 4890,
+      "sha256": "e366dec17803ec1db738bdcafb01d3f87fe17f336f2d1cc5b6bdca7db5e2e89b"
+    },
+    {
+      "path": "ketupa-workspace/README.md",
+      "bytes": 3530,
+      "sha256": "6bc89cc91423b953ef5b042bf4fc4497e97490af7dc1e7cf8c2c0f17130c4ebe"
+    },
+    {
+      "path": "ketupa-workspace/plans.mjs",
+      "bytes": 13102,
+      "sha256": "c63373d398093072604d63cdf931bba2ae42eefa92df630d4f8bc2957d681531"
+    },
+    {
+      "path": "ketupa-workspace/queue.mjs",
+      "bytes": 7912,
+      "sha256": "7e47f9ed7ffaf6ee95da282b0a67d956338d5ef1b8cede513985ff24cfb99c39"
+    },
+    {
+      "path": "ketupa-workspace/tasks.mjs",
+      "bytes": 15206,
+      "sha256": "2c3e5338ba48d27ebace467405c9ed611941647718a9ae164c3043b7d280001b"
+    },
+    {
+      "path": "licenses/sdk-MIT.txt",
+      "bytes": 1084,
+      "sha256": "f9bfd5e309b1523a2dd3937b44f516e6018605eb05b35336485b0a34cbd9f373"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 22672,
+      "sha256": "15bb72c788732e9d3a127a8ca39a8cbf2293862f8dca4ec25adc9cf1a810eff0"
+    },
+    {
+      "path": "package.json",
+      "bytes": 1560,
+      "sha256": "606125970c951a582b24ba8bca74567c75fb67f29f7c19e8c98ef0c88815d6bb"
+    },
+    {
+      "path": "scripts/git-audit.mjs",
+      "bytes": 2056,
+      "sha256": "cca21a5e3d885cbf97bcf76d8c2f7ad888469984ff1347c6865e487eaadb988c"
+    },
+    {
+      "path": "scripts/pack.mjs",
+      "bytes": 3747,
+      "sha256": "08f3898674844dda051202ce73d3d02dfb7ff67086399fb97289d037970004f1"
+    },
+    {
+      "path": "scripts/release-check.mjs",
+      "bytes": 1165,
+      "sha256": "3606c29467a37e5f7a5a9c395b70bacaf19a9db686b006305ae5eee72622ff70"
+    },
+    {
+      "path": "scripts/release-policy.mjs",
+      "bytes": 3966,
+      "sha256": "c997f717838ae74598f023efeeb0dc760014905fa7f651a50f233f0c451c3cc2"
+    },
+    {
+      "path": "test/agent-gateway.test.mjs",
+      "bytes": 7293,
+      "sha256": "4e65270fde687643f70e83038a08e4c5e12a01562e56070a5bbbaa59a0a6eb25"
+    },
+    {
+      "path": "test/configuration.test.mjs",
+      "bytes": 2362,
+      "sha256": "2eed4df58f258707417013dae0204addffe4c814fb697dedee4f4fafe177a938"
+    },
+    {
+      "path": "test/context.test.mjs",
+      "bytes": 1300,
+      "sha256": "7ef5d8a3df1ec6d6cc73f3c2982655499aa1a00e4cf17dccca2e12d85d064cb6"
+    },
+    {
+      "path": "test/gateway.test.mjs",
+      "bytes": 4754,
+      "sha256": "b0cc12a8b9a64bf6929d55b2ff98944310b4e6ac7ed18ed0e485d7ea8d3071f8"
+    },
+    {
+      "path": "test/interfaces.test.mjs",
+      "bytes": 7234,
+      "sha256": "eba05b87967d4c481aff6ea8b646635373eea35fd52470170420218fa1e2a8ed"
+    },
+    {
+      "path": "test/knowledge.test.mjs",
+      "bytes": 15835,
+      "sha256": "6aca2e5844ffb6dc5b9e9e5324988fc0760b2f4a9848132ef8a83946917ee75e"
+    },
+    {
+      "path": "test/model.test.mjs",
+      "bytes": 4495,
+      "sha256": "19242f22ef01305fa32fa15209abe3f84217e3a0f9b9e64c1cc205668c2ad6fe"
+    },
+    {
+      "path": "test/operations.test.mjs",
+      "bytes": 2682,
+      "sha256": "52db9c53d125199e388717c7b7c876eba9853c3d52ece61a343e5bde8ac84695"
+    },
+    {
+      "path": "test/plans.test.mjs",
+      "bytes": 12539,
+      "sha256": "bc005b0aff333b099b1c5be8f5211ce2f17974805166562530826b82f0f64c84"
+    },
+    {
+      "path": "test/platform.test.mjs",
+      "bytes": 2676,
+      "sha256": "bff892c9150d74447dbf61638152c992bdbfbcf00efb01006735fd1706b4b431"
+    },
+    {
+      "path": "test/queue.test.mjs",
+      "bytes": 19419,
+      "sha256": "1f1050e06244e5134629b5f84311e1efbf4684910e2e8e0dffdac2c223197e87"
+    },
+    {
+      "path": "test/release.test.mjs",
+      "bytes": 4186,
+      "sha256": "e5e60e1c7384320b31af7c691e0709ea3c371524c86dce1dbe61279d4278a337"
+    },
+    {
+      "path": "test/security.test.mjs",
+      "bytes": 4254,
+      "sha256": "3741bfe3e8bf9af01a0d8d58dbe67ca47a66e45b92e24c1b570f66c2e8543fef"
+    }
+  ]
+}

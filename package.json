@@ -1,0 +1,50 @@
+{
+  "name": "ketupa-agent-feishu-bridge",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Ketupa agent bridge for Feishu, authorized knowledge, bounded task scheduling and private workspaces",
+  "type": "module",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "scripts": {
+    "init": "node bridge/cli.mjs init",
+    "doctor": "node --env-file-if-exists=config/.env bridge/cli.mjs doctor",
+    "start": "node --env-file-if-exists=config/.env bridge/cli.mjs start",
+    "pair": "node --env-file-if-exists=config/.env bridge/cli.mjs pair",
+    "worker": "node --env-file-if-exists=config/.env bridge/cli.mjs run",
+    "test": "node --test test/*.test.mjs",
+    "release:check": "node scripts/release-check.mjs",
+    "release:pack": "node scripts/pack.mjs",
+    "status": "node --env-file-if-exists=config/.env bridge/cli.mjs status"
+  },
+  "keywords": [
+    "feishu",
+    "lark",
+    "codex",
+    "openai-compatible",
+    "agent",
+    "feishu-workspace",
+    "task-dispatch",
+    "privacy",
+    "ketupa",
+    "ketupa-workspace"
+  ],
+  "dependencies": {
+    "@larksuiteoapi/node-sdk": "1.76.0"
+  },
+  "author": {
+    "name": "Asenjo.HB.L",
+    "email": "asenjoaupa@gmail.com",
+    "url": "https://github.com/Shallot-2009/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shallot-2009/ketupa-agent-feishu-bridge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Shallot-2009/ketupa-agent-feishu-bridge/issues"
+  },
+  "homepage": "https://github.com/Shallot-2009/ketupa-agent-feishu-bridge#readme"
+}
